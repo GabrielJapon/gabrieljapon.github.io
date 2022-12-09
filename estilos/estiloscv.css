@@ -1,0 +1,127 @@
+body{
+    background-color: #660000ee;
+}
+
+header{
+    background-color: #1B1B1B;
+}  
+
+nav{
+    width: 100%;
+  }
+  
+  nav div{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    width: 22%;
+    padding: 10px;
+  }
+  
+  nav div:hover {
+    background-color: rgb(68, 66, 66);
+    height: 20px;
+  }
+  
+  a:active
+  {
+    background-color:#660000;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+table{
+    border: 3px;
+    border-style:solid;
+    border-color: black;
+    width: 20%;
+    float: left;
+}
+
+
+#Kratos{
+    height: 200px;
+}
+
+#nombre{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.estilo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.estilo2{
+    color: aliceblue;
+    text-align: center;
+}
+
+#hacha{
+    height: 150px;
+}
+
+#espadas{
+    height: 150px;
+}
+
+#lanza{
+    height: 150px;
+}
+
+#gif1{
+    height: 150px;
+}
+
+div.lateral{
+    float:right;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+li{
+    text-align: left;
+    color: #1B1B1B;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.dioses1{
+    list-style:none;
+    display:block;
+}
+
+ul{
+    list-style-type: circle;
+    color: white;
+    text-align: center;
+}
+
+#ares{
+    height: 220px;
+}
+
+#zeus{
+    height: 220px;
+}
+
+#baldur{
+    height: 220px;
+}
+
+#thor{
+    height: 220px;
+}
