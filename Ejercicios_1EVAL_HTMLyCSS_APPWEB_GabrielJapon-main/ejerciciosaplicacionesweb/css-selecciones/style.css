@@ -1,0 +1,26 @@
+.parrafosimpares{
+    color: blueviolet;
+}
+
+span{
+    background-color: yellow;
+    color: black;
+}
+
+#parrafo2{
+    color: aqua;
+}
+
+#parrafo4{
+    color: brown;
+}
+
+p em{
+    background-color: yellow;
+}
+
+p.parrafonuevo{
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}

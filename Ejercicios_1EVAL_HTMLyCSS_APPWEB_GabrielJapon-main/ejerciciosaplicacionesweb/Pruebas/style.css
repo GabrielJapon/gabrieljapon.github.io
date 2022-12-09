@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    border-style:double;
+    padding: 1%;
+}
+
+h1{
+    border-style: dotted;   
+    border-width: 2em;
+}
+
+table{
+    border-style: dashed;
+    background-color: chartreuse;
+    width:50%;
+    height:40%;
+    border-radius: 5%;
+}
+
+td{
+    border:3px solid blue;
+    border-radius: 10%;
+    padding: 20% 20%;
+}

@@ -1,0 +1,30 @@
+/* Autor: Gabriel Japón */
+
+header :first-child{
+    color: aqua;
+}
+
+a:link{
+    background-color: yellow;
+}
+
+a:visited{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: darkblue;
+    color: brown;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+a:active{
+    background-color: pink;
+    font-size: 25px;
+}
+
+input:focus{
+    background-color: yellow;
+}
