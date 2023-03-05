@@ -1,0 +1,81 @@
+body{
+    background-color: #660000ee;
+}
+
+header{
+    background-color: #1B1B1B;
+}  
+
+nav{
+    width: 100%;
+  }
+  
+  nav div{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    width: 22%;
+    padding: 10px;
+  }
+  
+  nav div:hover {
+    background-color: rgb(68, 66, 66);
+    height: 20px;
+  }
+  
+  a:active
+  {
+    background-color:#660000;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+  .video {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.titclas {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.titdoc {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.documento {
+    text-align: center;
+}
+
+.trabclas{
+    text-align: center;
+}
+
+#linkdoc:hover{
+    color: #1B1B1B;
+}
+
+#linkclas:hover{
+    color: #1B1B1B;
+}

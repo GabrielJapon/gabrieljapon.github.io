@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilosform.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <nav>
+    
+          <div class="principal">
+            <a href="/index.html">Pag Principal</a>
+          </div>
+    
+          <div class="cv">
+            <a href="curriculum.html">Curriculum Vitae</a>
+          </div>
+    
+          <div class="formulario">
+            <a href="formulario.html">Formulario</a>
+          </div>
+    
+          <div class="proyecto">
+            <a href="proyecto.html">Proyecto</a>
+          </div>
+    
+        </nav>
+      </header>
+    
+<h1>Trivia/Formulario</h1>
+<h2>Demuestra lo que sabes de la saga "God of War y responde a unas preguntas.</h2>
+      <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre<br>
+            <input type="text"><br>
+            <br>Apellido<br>
+            <input type="text"><br>
+            <br>Email<br>
+            <input type="email" value="" size="60"><br>
+            <br>¿Cuántos años tienes?<br>
+            <input type="number" min="10" max="100" ><br>
+            <br>¿Has jugado alguna vez a un juego de "God of War?<br>
+            <input type="radio">Si
+            <input type="radio">No<br>
+            <br>En caso afirmativo, di a cual/cuales<br>
+            <input type="text" size="60"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Trivia</legend>
+            Hay mas de 10 juegos de la saga "GOW"<br>
+            <input type="radio">Si
+            <input type="radio">No<br>
+            <br>Hay un videojuego de "GOW" para telefonos moviles<br>
+            <input type="radio">Si
+            <input type="radio">No<br>
+            <br>¿Cuales de estos juegos se desarrollan en la mitologia nordica?<br>
+            <input type="checkbox">God of War: Ragnarod<br>
+            <input type="checkbox">GOW: Chains of Olympus<br>
+            <input type="checkbox">GOW: Ghost of Sparta<br>
+            <input type="checkbox">God of War (2018)<br>
+            <input type="checkbox">God of War (2005)<br>
+
+            <br>¿Que armas ha usado Kratos?<br>
+            <input type="checkbox">Espada tradicional<br>
+            <input type="checkbox">Espadas del caos<br>
+            <input type="checkbox">Lanza de Draupnir<br>
+            <input type="checkbox">Arco<br>
+            <input type="checkbox">Añade las faltantes: <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Fanarts</legend>
+           Si tienes algun dibujo que te gustaria que subamos a la pagina, adjuntalo aqui<br>
+            <br><input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            Escribenos tus dudas o sugerencias para mejorar la pagina<br>
+            <textarea rows="2" cols="60"></textarea><br>
+            <br>Indica la fecha en la que has rellenado el formulario<br>
+            <input type="date">
+        </fieldset>
+        <input id="enviar" type="submit" value="Enviar" class="boton">
+        <input id="borrar" type="reset" value="Borrar" class="boton">
+   </form>
+</body>
+</html>

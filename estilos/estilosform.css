@@ -1,0 +1,65 @@
+body{
+    background-color: #660000ee;
+}
+
+header{
+    background-color: #1B1B1B;
+}  
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+  }
+
+nav div{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    width: 22%;
+    padding: 10px;
+}
+  
+nav div:hover {
+    background-color: rgb(68, 66, 66);
+    height: 20px;
+}
+  
+a:active
+{
+    background-color:#660000;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+}
+
+fieldset {
+    border-color:rgb(230, 199, 141);
+    padding: 1%;
+    margin: 1%;
+}
+
+legend {
+    color:#1B1B1B;
+    font-weight: bold;
+}
+
+#enviar:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#borrar:hover {
+    background-color: black;
+    color: aliceblue;
+}
